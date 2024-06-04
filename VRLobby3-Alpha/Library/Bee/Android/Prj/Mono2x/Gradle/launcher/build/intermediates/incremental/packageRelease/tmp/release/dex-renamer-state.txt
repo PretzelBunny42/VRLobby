@@ -1,0 +1,4 @@
+#Mon Jun 03 16:49:14 EDT 2024
+base.0=D\:\\Shreya\\NYU_UnityProjects\\VRLobby- TT\\VRLobby3-Alpha\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

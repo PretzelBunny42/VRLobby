@@ -1,0 +1,173 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="auto"
+6    android:versionCode="1"
+7    android:versionName="0.1" >
+8
+9    <uses-sdk
+10        android:minSdkVersion="32"
+10-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11        android:targetSdkVersion="33" />
+11-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+12
+13    <uses-feature android:glEsVersion="0x00030000" />
+13-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-52
+13-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-49
+14    <uses-feature
+14-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-91
+15        android:name="android.hardware.vulkan.version"
+15-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-63
+16        android:required="false" />
+16-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:64-88
+17
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-65
+18-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:20-62
+19
+20    <uses-feature
+20-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-88
+21        android:name="android.hardware.touchscreen"
+21-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-60
+22        android:required="false" />
+22-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:61-85
+23    <uses-feature
+23-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-99
+24        android:name="android.hardware.touchscreen.multitouch"
+24-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:17-71
+25        android:required="false" />
+25-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:72-96
+26    <uses-feature
+26-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-108
+27        android:name="android.hardware.touchscreen.multitouch.distinct"
+27-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-80
+28        android:required="false" />
+28-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:81-105
+29    <uses-feature
+29-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-111
+30        android:name="android.hardware.vr.headtracking"
+30-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:17-64
+31        android:required="true"
+31-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:65-88
+32        android:version="1" />
+32-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:89-108
+33
+34    <application android:extractNativeLibs="true" >
+34-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-24:17
+34-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+35        <activity
+35-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-13:16
+36            android:name="com.unity3d.player.UnityPlayerActivity"
+36-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+37            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+37-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:204-313
+38            android:exported="true"
+38-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:385-408
+39            android:hardwareAccelerated="false"
+39-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:349-384
+40            android:launchMode="singleTask"
+40-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:172-203
+41            android:resizeableActivity="false"
+41-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:314-348
+42            android:screenOrientation="landscape"
+42-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:134-171
+43            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+43-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-133
+44            <intent-filter>
+44-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-9:23
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+45-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+47-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+48                <category android:name="com.oculus.intent.category.VR" />
+48-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:9-66
+48-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:19-63
+49            </intent-filter>
+50
+51            <meta-data
+51-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-82
+52                android:name="unityplayer.UnityActivity"
+52-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-58
+53                android:value="true" />
+53-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:59-79
+54            <meta-data
+54-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-78
+55                android:name="android.notch_support"
+55-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-54
+56                android:value="true" />
+56-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+57            <meta-data
+57-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:7-81
+58                android:name="com.oculus.vr.focusaware"
+58-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:18-57
+59                android:value="true" />
+59-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:58-78
+60        </activity>
+61
+62        <meta-data
+62-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-69
+63            android:name="unity.splash-mode"
+63-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
+64            android:value="0" />
+64-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:49-66
+65        <meta-data
+65-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-74
+66            android:name="unity.splash-enable"
+66-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-50
+67            android:value="True" />
+67-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:51-71
+68        <meta-data
+68-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-78
+69            android:name="unity.launch-fullscreen"
+69-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-54
+70            android:value="True" />
+70-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:55-75
+71        <meta-data
+71-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-81
+72            android:name="notch.config"
+72-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-43
+73            android:value="portrait|landscape" />
+73-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:44-78
+74        <meta-data
+74-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-84
+75            android:name="unity.auto-report-fully-drawn"
+75-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-60
+76            android:value="true" />
+76-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:61-81
+77        <meta-data
+77-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-97
+78            android:name="com.samsung.android.vr.application.mode"
+78-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-70
+79            android:value="vr_only" />
+79-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:71-94
+80        <meta-data
+80-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-91
+81            android:name="com.unity.xr.oculus.LowOverheadMode"
+81-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-66
+82            android:value="false" />
+82-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:67-88
+83        <meta-data
+83-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:5-88
+84            android:name="com.unity.xr.oculus.LateLatching"
+84-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:16-63
+85            android:value="false" />
+85-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:64-85
+86        <meta-data
+86-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:5-93
+87            android:name="com.unity.xr.oculus.LateLatchingDebug"
+87-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:16-68
+88            android:value="false" />
+88-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:69-90
+89        <meta-data
+89-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-90
+90            android:name="com.oculus.supportedDevices"
+90-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:16-58
+91            android:value="quest|quest2" />
+91-->D:\Shreya\NYU_UnityProjects\VRLobby- TT\VRLobby3-Alpha\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:59-87
+92    </application>
+93
+94</manifest>
